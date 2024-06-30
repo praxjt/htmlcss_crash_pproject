@@ -1,0 +1,107 @@
+
+body {
+    font-family: sans-serif;
+    color: aliceblue;
+    background-image: url('IMG-20220711-WA0009.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color:rgba(251, 250, 249, 0.902); /*a stands for  opacity means transperancy 0.5 stand for 50%of tarnceperancy
+    but trancepenacy is not appplicable untill you blend it*/
+    /*  we are telling image to cover only body tag of 100%*/
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow-y: hidden;/*solved the error showin in fooetr tah is space showed  */
+}
+header{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    margin-left: 2px;/* it will auto adjust  the logo and nav position when opening website*/
+    margin-right:2px;
+}
+.logo{
+    font-size:20px;
+    font-weight: 700;
+
+}
+.logo:hover{
+    color: rgba(222, 227, 218, 0.995) ;
+    cursor: pointer;
+    transition: color 0.4s; /*here only when mouse poinetd to the text it slows down definig (color) aplies only for it */
+
+}
+.links{
+    display: flex; /* to view in one line */
+    list-style: none;/* it will remove list dot*/
+    
+
+}
+.link-item{
+    margin-right: 17px;/*  applies only for only specified sides like(top ,right,left)*/
+
+    
+
+}
+.link{
+    text-decoration: none; /*it will remove underline because i used ancor tag*/
+    color:white;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.4s;
+
+
+}
+.link:hover{
+    color: rgba(222, 227, 218, 0.995) ;
+}
+.main{
+    text-align: center;
+    margin-top: 210px;
+    
+
+}
+.paragrph{
+    font-size:25px;
+}
+.bold{
+    font-size: 27px;
+    font-weight: 700;
+}
+.bold:hover{
+    color: rgba(222, 227, 218, 0.995) ;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+footer{
+    background-color: rgba(239, 235, 228,0.7);
+    margin-top: auto;/*some sapce is showin at bottom so resolve the error*/
+    
+
+   
+    
+    
+
+}
+.foot{
+    text-decoration: none;
+    
+    display:flex;
+    justify-content: center;
+}
+.foot a{
+    padding-top: 10px;
+    padding-right: 10px;
+    margin: 10px;
+}
+.paragraphbtm{
+    color: rgb(86, 84, 81);
+    display:flex;
+    justify-content: center;
+
+}
+@media(max-width:429px){
+    .
+}
