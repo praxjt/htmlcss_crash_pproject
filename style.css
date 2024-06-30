@@ -1,4 +1,7 @@
-
+*{
+    padding: 0;
+    margin: 0;
+}
 body {
     font-family: sans-serif;
     color: aliceblue;
@@ -79,6 +82,9 @@ footer{
     background-color: rgba(239, 235, 228,0.7);
     margin-top: auto;/*some sapce is showin at bottom so resolve the error*/
     
+    
+
+    
 
    
     
@@ -103,5 +109,5 @@ footer{
 
 }
 @media(max-width:429px){
-    .
+    
 }
