@@ -116,5 +116,10 @@ footer{
 
 }
 @media(max-width:429px){
+    body{
+        .links{
+            display: none;
+        }
+    }
     
 }
